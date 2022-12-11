@@ -1,5 +1,8 @@
 //11/12/2022
 //JJ Chang
+//Project from Java Bootcamp with John
+//Scanner class, getting user input practice
+
 import java.util.Scanner;
 
 public class heightInInch {
