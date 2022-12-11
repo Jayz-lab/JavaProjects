@@ -10,18 +10,27 @@ public class heightInInch {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		float hInInch ;
-		float hInFeet ;
+		float heightInFeet;
+		int heightInFeet1;
+		float remainingHeightInches ;
+		float heightInInch ;
+		
 		
 		Scanner userInput = new Scanner(System.in);
 
 		System.out.println("Please enter your height in feet: ");
-		hInFeet = userInput.nextFloat();
-		System.out.println("Your height in feet is: " + hInFeet + "Feet.");
+		heightInFeet1 = userInput.nextInt();
+		
+		System.out.println("Please enter your remaining height in decimal: ");
+		remainingHeightInches = userInput.nextFloat();
+		
+		heightInFeet = heightInFeet1 + remainingHeightInches;
+		System.out.println("Your height in feet is: " + heightInFeet + " Feet.");
 		
 		System.out.println("I will convert your height in feet to inches.");
-		hInInch = hInFeet * 12;
-		System.out.println("Your height in inches is: " + hInInch + "Inches.");
+		
+		heightInInch = heightInFeet * 12;
+		System.out.println("Your height in inches is: " + heightInInch + "Inches.");
 	}
 
 }
