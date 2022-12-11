@@ -8,7 +8,6 @@ import java.util.Scanner;
 public class heightInInch {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		float heightInFeet;
 		int heightInFeet1;
