@@ -1,5 +1,5 @@
 # JavaProjects
-Repo of Java Projects completed from courses I am currently learning.
+Java Projects completed from courses I am currently learning.
 
 ### Projects
 
