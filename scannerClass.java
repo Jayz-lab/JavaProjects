@@ -15,20 +15,20 @@ public class heightInInch {
 		float heightInInch ;
 		
 		
-		Scanner userInput = new Scanner(System.in);
+		Scanner userInput = new Scanner(System.in);//System.in, keyboard input
 
 		System.out.println("Please enter your height in feet: ");
-		heightInFeet1 = userInput.nextInt();
+		heightInFeet1 = userInput.nextInt();//userInput Int
 		
 		System.out.println("Please enter your remaining height in decimal: ");
-		remainingHeightInches = userInput.nextFloat();
+		remainingHeightInches = userInput.nextFloat();//userInput in decimal. ie.float
 		
 		heightInFeet = heightInFeet1 + remainingHeightInches;
 		System.out.println("Your height in feet is: " + heightInFeet + " Feet.");
 		
 		System.out.println("I will convert your height in feet to inches.");
 		
-		heightInInch = heightInFeet * 12;
+		heightInInch = heightInFeet * 12;//conversion formula
 		System.out.println("Your height in inches is: " + heightInInch + "Inches.");
 	}
 
