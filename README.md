@@ -9,3 +9,4 @@ Java Projects & Practices from courses I am currently learning.
 
 ### Practice
 - Logical Operator Practice, with Scanner class and if else. (Java course with John)
+- Ternary Operator code practice with examples of use cases. (Java course with John)
