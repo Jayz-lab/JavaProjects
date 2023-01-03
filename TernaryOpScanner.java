@@ -47,10 +47,17 @@ public class TernaryOpScanner {
 		*/ 
 		//calling a method on a variable where value is null gives NUll pointer Exception
 		//Ternary operator is used as a code around to avoid that.
-		//cat myCat = Null;
-		//int myCatsAge;
-		//if (myCat != null){ myCatsAge = myCat.getAge(); else{myCatsAge = 0;}
-		//written in Ternary Operator:int myCatsAge = myCat != null ? myCat.getAge() : 0;
+		/*
+		cat myCat = Null;
+		int myCatsAge;
+		if (myCat != null){ 
+			myCatsAge = myCat.getAge(); 
+		}
+		else{
+			myCatsAge = 0;
+		}
+		*/
+		//written in Ternary Operator: int myCatsAge = myCat != null ? myCat.getAge() : 0;
 		//Helps to prevent Null Pointer Exception.
 		
 	}
