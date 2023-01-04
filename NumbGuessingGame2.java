@@ -8,8 +8,6 @@ import java.util.Scanner;
 public class NumbGuessingGame2 {
 
 	public static void main(String[] args) {
-		// TODO : write out without referencing to tutorial 
-		//
 		
 		Random rand = new Random();//initialize a Random class
 		int randomNumber = rand.nextInt(100)+1;//initialize a variable 'randomNumber' to store the value Rand
