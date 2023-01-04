@@ -20,7 +20,7 @@ public class NumbGuessingGame2 {
 		
 		while(true) {
 			
-			System.out.println("please enter a number: ");
+			System.out.println("please enter a number between 1-100 : ");
 			int numb = userInput.nextInt();//initialize a variable 'numb' to hold the input value
 			
 			if(numb == randomNumber ) {
