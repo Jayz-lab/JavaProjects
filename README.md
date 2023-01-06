@@ -7,6 +7,8 @@ Java Projects & Practices from courses I am currently learning.
 
 2- Number guessing game, understanding while loop, do while. (Java course with John)
 
+3- Rock, Paper, Scissors (personal coding challenge)
+
 ### Practice
 - Logical Operator code practice, with Scanner class and if else. (Java course with John)
 - Ternary Operator code practice with examples of use cases. (Java course with John)
